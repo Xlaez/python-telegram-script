@@ -10,7 +10,7 @@ import time
 
 api_id = 123456
 api_hash = 'YOUR_API_HASH'
-phone = '+2347019107553'
+phone = 'YOUR_PHONE_NUMBER'
 client = TelegramClient(phone, api_id, api_hash)
 
 client.connect()
